@@ -1,0 +1,119 @@
+html,
+body {
+  display: block;
+  scroll-behavior: smooth;
+  font-family: "Century Gothic";
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.topnav {
+  width: 100%;
+  text-align: center;
+}
+
+.topnav li {
+  display: inline-block;
+  float: none;
+}
+
+.topnav a {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.topnav a:hover {
+  color: #b17419;
+}
+
+.wrapper {
+  display: block;
+  height: 700px;
+  width: 100%;
+  background-image: url(images/wrapper.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.definition {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0.5;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.definition p {
+  line-height: 1.3;
+}
+
+footer {
+  box-sizing: border-box;
+  background-color: #d9d6c3;
+  width: 100%;
+  height: 75px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#ig {
+  font-size: 40px;
+  margin: 5px;
+  color: black;
+}
+
+footer h4 {
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+/*CANDLE CARE IS BELOW*/
+.candlecare h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.candlecare p {
+  text-align: center;
+}
+
+.candlecare img {
+  width: 100%;
+  height: 400px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .topnav a {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .topnav img {
+    width: 80px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
