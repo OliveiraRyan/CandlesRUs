@@ -55,6 +55,8 @@ body {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
   box-sizing: border-box;
   background-color: #d9d6c3;
   width: 100%;
