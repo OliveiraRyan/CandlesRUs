@@ -1,1 +1,2 @@
 # CandlesRUs
+Remember to smile
