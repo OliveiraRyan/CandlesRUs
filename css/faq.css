@@ -1,6 +1,5 @@
-.panel-group {
+/* .panel-group {
     display: block;
-    /* color: #7a7a7a; */
 }
 
 .panel {
@@ -22,9 +21,24 @@
     border-bottom: 0;
     box-sizing: border-box;
     font-family: "Century Gothic";
+} */
+
+
+
+.accordion-group {
+    border: none;
+    box-shadow: none;
+    border-radius: 4px;
+    color: #7a7a7a;
+    max-width: 800px;
+    width: 80%;
+    margin: auto;
+    padding-top: 65px;
 }
 
-
+.accordion {
+    margin-top: 10px;
+}
 
 .accordion__button {
     display: block;
@@ -51,7 +65,7 @@
 .accordion__content {
     overflow: hidden;
     max-height: 0;
-    transition: max-height 0.5s;
+    transition: max-height 0.35s;
 
     padding: 0 15px;
     font-family: "Century Gothic";

@@ -28,44 +28,51 @@
           <li><a href="faq.html">faq</a></li>
         </div>
 
-        <!-- <div class="panel-group">
-            <div class="panel">
-                <div class="panel-heading">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="minus">Super Flexible<span>&nbsp;</span>
-                    </a>
+        <!-- accordions -->
+        <div class="accordion-group">
+            <div class="accordion">
+                <button type="button" class="accordion__button">Expand Content</button>
+                <div class="accordion__content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                        in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
                 </div>
-                <div id="collapseOne" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                        Canna Theme is a very slick and clean e-commerce template with endless possibilities. Creating an awesome website. Canna Theme is a very slick and clean e-commerce template with endless possibilities.
-                    </div>
-                </div>
+    
             </div>
 
-
-        </div> -->
-
-        <div class="accordion">
-            <button type="button" class="accordion__button">Expand Content</button>
-            <div class="accordion__content">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+            <div class="accordion">
+                <button type="button" class="accordion__button">Expand Content</button>
+                <div class="accordion__content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                        in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+    
             </div>
 
+            <div class="accordion">
+                <button type="button" class="accordion__button">Expand Content</button>
+                <div class="accordion__content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                        in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+    
+            </div>
         </div>
-
-        <!-- <div class="wrapper"></div> -->
-        <!-- <div class="definition">
-          <h3>burn-out</h3>
-          <h4>(noun)</h4>
-          <p>
-            definition: a state of emotional, physical, and mental exhaustion caused
-            by excessive and prolonged stress.
-          </p>
-          <p>solution: inhale. exhale. light a candle.</p>
-        </div> -->
-
-
+        
       </body>
 
       <footer>
@@ -96,18 +103,12 @@
         function resizeAccordions() {
             document.querySelectorAll('.accordion__button').forEach(button => {
                 const accordionContent = button.nextElementSibling;
-                // button.classList.toggle('accordion__button--active');
                 if(button.classList.contains('accordion__button--active')){
                     accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';    
                 }
             });
-            var w = window.outerWidth;
-            var h = window.outerHeight;
-            var txt = "Window size: width=" + w + ", height=" + h;
-            document.getElementById("demo").innerHTML = txt;
         }
     </script>
 
-    <!-- <p id="demo"></p> -->
 
 </html>
