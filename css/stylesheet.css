@@ -55,7 +55,7 @@ body {
 }
 
 footer {
-  position: static;
+  position: absolute;
   bottom: 0;
   box-sizing: border-box;
   background-color: #d9d6c3;
