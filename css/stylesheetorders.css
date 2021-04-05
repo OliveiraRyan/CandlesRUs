@@ -53,17 +53,13 @@ footer h4 {
 }
 
 /* NEW CODE*/
-.ordersimage {
-  float: right;
-  height: 700px;
-  width: 700px;
-}
-
-.ordersimage img {
-  max-width: 100%;
-  max-height: 100%;
-  margin-right: 75px;
-  float: right;
+.orderwrap {
+  height: 80%;
+  width: 100%;
+  background-image: url(../images/Orders.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .orders {
   text-align: center;
@@ -71,15 +67,15 @@ footer h4 {
 }
 
 .orderinfo {
-  float: left;
+  display: block;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
   text-align: center;
-  width: 50%;
-  height: 600px;
+  height: 400px;
   background-color: rgba(217, 214, 195, 0.6);
-  margin-left: 75px;
 }
 
-.orderinfo h4 {
-  display: inline-block;
-  text-align: center;
+.orderinfo {
 }
