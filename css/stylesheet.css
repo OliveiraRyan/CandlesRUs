@@ -55,7 +55,7 @@ body {
 }
 
 footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   box-sizing: border-box;
   background-color: #d9d6c3;
@@ -94,7 +94,7 @@ footer h4 {
   top: 20%;
   background-color: rgba(217, 214, 195, 0.7);
   animation-name: candlecaretrans;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .candlecare h1 {
@@ -117,33 +117,31 @@ footer h4 {
 
 /* ORDER PAGE IS BELOW*/
 .orderwrap {
-  height: 80%;
+  position: fixed;
+  height: 85%;
   width: 100%;
   background-image: url(../images/Orders.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.orders {
-  text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .orderinfo {
-  display: block;
-  margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 150px;
   width: 40%;
   text-align: center;
   height: 400px;
   background-color: rgba(217, 214, 195, 0.7);
   animation-name: candlecaretrans;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .orderinfo h3 {
   font-size: 40px;
+  padding-top: 20px;
 }
 
 .orderinfo h4 {
