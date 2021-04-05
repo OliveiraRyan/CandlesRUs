@@ -55,7 +55,7 @@ body {
 }
 
 footer {
-  position: sticky;
+  position: static;
   bottom: 0;
   box-sizing: border-box;
   background-color: #d9d6c3;
