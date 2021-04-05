@@ -137,7 +137,9 @@ footer h4 {
   width: 40%;
   text-align: center;
   height: 400px;
-  background-color: rgba(217, 214, 195, 0.6);
+  background-color: rgba(217, 214, 195, 0.7);
+  animation-name: candlecaretrans;
+  animation-duration: 4s;
 }
 
 .orderinfo h3 {
