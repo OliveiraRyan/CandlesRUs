@@ -115,6 +115,39 @@ footer h4 {
   }
 }
 
+/* ORDER PAGE IS BELOW*/
+.orderwrap {
+  height: 80%;
+  width: 100%;
+  background-image: url(../images/Orders.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.orders {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.orderinfo {
+  display: block;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+  height: 400px;
+  background-color: rgba(217, 214, 195, 0.6);
+}
+
+.orderinfo h3 {
+  font-size: 40px;
+}
+
+.orderinfo h4 {
+  font-size: 20px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .topnav a {
