@@ -1,0 +1,85 @@
+html,
+body {
+  display: block;
+  scroll-behavior: smooth;
+  font-family: "Century Gothic";
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.topnav {
+  width: 100%;
+  text-align: center;
+}
+
+.topnav li {
+  display: inline-block;
+  float: none;
+}
+
+.topnav a {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.topnav a:hover {
+  color: #b17419;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
+  background-color: #d9d6c3;
+  width: 100%;
+  height: 75px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#ig {
+  font-size: 40px;
+  margin: 5px;
+  color: black;
+}
+
+footer h4 {
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+/* NEW CODE*/
+.ordersimage {
+  float: right;
+  height: 700px;
+  width: 700px;
+}
+
+.ordersimage img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 75px;
+  float: right;
+}
+.orders {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.orderinfo {
+  float: left;
+  text-align: center;
+  width: 50%;
+  height: 600px;
+  background-color: rgba(217, 214, 195, 0.6);
+  margin-left: 75px;
+}
+
+.orderinfo h4 {
+  display: inline-block;
+  text-align: center;
+}
