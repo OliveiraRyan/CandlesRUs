@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/stylesheet.css" />
+        <link rel="stylesheet" href="css/faq.css" />
+        <meta name="Authors" content="Matthew Pimentel, Ryan Oliveira" />
+        <script
+            src="https://kit.fontawesome.com/e66f2503c4.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>burnout candles</title>
+    </head>
+
+    <body onresize="resizeAccordions()">
+        <div class="topnav">
+          <li><a href="link">products</a></li>
+          <li><a href="link">order</a></li>
+          <li>
+            <a href="index.html"
+              ><img src="images/logo.png" width="110" alt="Logo"
+            /></a>
+          </li>
+          <li><a href="candlecare.html">candle care</a></li>
+          <li><a href="faq.html">faq</a></li>
+        </div>
+
+        <!-- accordions -->
+        <div class="accordion-group">
+            <button type="button" class="accordion__button">What are the candles made of?</button>
+            <div class="accordion__content">
+                <p>
+                    The candles are 100% soy. They are also non-GMO and are gluten, paraben, and phthalate free!
+                </p>
+            </div>
+
+            <button type="button" class="accordion__button">What is the packaging like?</button>
+            <div class="accordion__content">
+                <p>
+                    The packaging consists of 100% reusable cloth bags. The candles also come in our high 
+                    quality tins, which are also reusable.
+                </p>
+            </div>
+
+            <button type="button" class="accordion__button">What payment methods are offered?</button>
+            <div class="accordion__content">
+                <p>
+                    We currently only offer payment through e-transfer.
+                </p>
+            </div>
+
+            <button type="button" class="accordion__button">How can I order?</button>
+            <div class="accordion__content">
+                <p>
+                    At this time you can only place an order through our instagram DMs. We're currently looking
+                    to implement better ways for you to shop and order our products.</br></br>
+                    
+                    Check out our <b>order</b> page for more info on placing your order!
+                </p>
+            </div>
+
+        </div>
+        
+      </body>
+
+      <footer>
+        <a href="https://www.instagram.com/burnout.candles/" target="_blank"
+          ><i class="fab fa-instagram" id="ig"></i
+        ></a>
+        <h4>@burnout.candles</h4>
+      </footer>
+
+
+    <!-- Makes accordions work -->
+    <script>
+        document.querySelectorAll('.accordion__button').forEach(button => {
+            button.addEventListener('click', () => {
+                const accordionContent = button.nextElementSibling;
+                button.classList.toggle('accordion__button--active');
+                if (button.classList.contains('accordion__button--active')) {
+                    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+                } else {
+                    accordionContent.style.maxHeight = 0;
+                }
+            });
+        });
+    </script>
+
+    <!-- Called on window resize to fix accordion content height change -->
+    <script>
+        function resizeAccordions() {
+            document.querySelectorAll('.accordion__button').forEach(button => {
+                const accordionContent = button.nextElementSibling;
+                if(button.classList.contains('accordion__button--active')){
+                    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';    
+                }
+            });
+        }
+    </script>
+
+
+</html>
