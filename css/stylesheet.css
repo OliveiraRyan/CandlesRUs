@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   display: block;
@@ -5,7 +10,17 @@ body {
   font-family: "Century Gothic";
   height: 100%;
   width: 100%;
-  margin: 0;
+  /* margin: 0; */
+}
+
+#container {
+  min-height: 100%;
+  /* background-color: red; */
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 75px;
 }
 
 .topnav {
@@ -55,14 +70,13 @@ body {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  box-sizing: border-box;
+  position: relative;
   background-color: #d9d6c3;
   width: 100%;
   height: 75px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: -75px;
+  clear: both;
 }
 
 #ig {
