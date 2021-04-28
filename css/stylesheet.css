@@ -77,24 +77,50 @@ body {
 .wrapper {
   display: block;
   height: 700px;
-  width: 100%;
+  /* width: 100%; */
+  width: 99%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   background-image: url(../images/wrapper.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
   margin-top: 20px;
+
 }
 
-.definition {
-  width: 450px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 0.5;
+.auxiliary-container {
+  width: 100%;
+  text-align: center;
+}
+
+.auxiliary-text {
+  /* display: table-cell; */
+  /* width: 413px; */
+  /* text-align: center; */
+
+  text-align: left;
+
+  display: inline-block; 
+  vertical-align: top;
+
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 0.6;
+
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-top: 20px;
+  margin-bottom: 20px;
+
   font-size: 18px;
+  /* background-color: hotpink; */
 }
 
-.definition p {
+.auxiliary-text p {
   line-height: 1.3;
 }
 
