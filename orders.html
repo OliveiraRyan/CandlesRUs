@@ -24,6 +24,22 @@
       <li><a href="candlecare.html">candle care</a></li>
       <li><a href="faq.html">faq</a></li>
     </div>
+
+    <div class="mobiletopnav">
+      <a href="index.html">
+        <img src="images/logo.png" alt="Logo" width="35" height="35" />
+      </a>
+      <div id="links">
+        <a href="">products</a>
+        <a href="orders.html">orders</a>
+        <a href="candlecare.html">candle care</a>
+        <a href="faq.html">faq</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="dropDown()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </div>
+
     <div class="orderwrap">
       <div class="orderinfo">
         <h3>How to Order</h3>
@@ -39,6 +55,17 @@
         <h4>3. Pick-up - You will be given your pick-up date and time</h4>
       </div>
     </div>
+
+    <script>
+      function dropDown() {
+        var x = document.getElementById("links");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
   <footer style="bottom: 0; position: absolute">
     <a href="https://www.instagram.com/burnout.candles/" target="_blank"
