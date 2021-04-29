@@ -74,6 +74,10 @@ body {
   top: 0;
 }
 
+.mobiletopnav a.mobilelogo {
+  display: inline-block;
+}
+
 .wrapper {
   display: block;
   height: 700px;
@@ -219,12 +223,14 @@ footer h4 {
 }
 
 .orderinfo {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
-  width: 50vw;
-  height: 40%;
+  position: fixed;
   text-align: center;
+  margin-top: 25px;
+  color: #000000;
+  height: 40%;
+  width: 100%;
+  top: 30%;
+  padding: 1px;
   background-color: rgba(217, 214, 195, 0.7);
   animation-name: candlecaretrans;
   animation-duration: 2s;
@@ -233,13 +239,11 @@ footer h4 {
 
 .orderinfo h3 {
   font-size: 2em;
-  padding-top: auto;
-  line-height: 3em;
 }
 
 .orderinfo h4 {
-  font-size: 1em;
-  line-height: 2em;
+  font-size: 1.1em;
+  line-height: 4;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -253,6 +257,10 @@ footer h4 {
   }
 
   .candlecare h4 {
+    line-height: 2;
+  }
+
+  .orderinfo h4 {
     line-height: 2;
   }
 }
