@@ -37,10 +37,10 @@
 
 .accordion__content {
     overflow: hidden;
-    /* max-height: 0; */
-    height: 0;
-    /* transition: max-height 0.35s; */
-    transition: height 0.35s;
+    max-height: 0;
+    /* height: 0; */
+    transition: max-height 0.35s;
+    /* transition: height 0.35s; */
     /* transition: padding 0.5s; */
     padding: 0 15px;
     font-family: "Century Gothic";

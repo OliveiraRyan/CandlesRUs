@@ -135,12 +135,12 @@
                 const accordionContent = button.nextElementSibling;
                 button.classList.toggle('accordion__button--active');
                 if (button.classList.contains('accordion__button--active')) {
-                    // accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';  
-                    accordionContent.style.height = accordionContent.scrollHeight + 0 + 'px';
+                    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';  
+                    // accordionContent.style.height = accordionContent.scrollHeight + 0 + 'px';
                     // accordionContent.style.padding = "10px 15px";
                 } else {
-                    // accordionContent.style.maxHeight = 0;  
-                    accordionContent.style.height = 0;
+                    accordionContent.style.maxHeight = 0;  
+                    // accordionContent.style.height = 0;
                     // accordionContent.style.padding = "0 15px";
                 }
             });
@@ -153,7 +153,8 @@
             document.querySelectorAll('.accordion__button').forEach(button => {
                 const accordionContent = button.nextElementSibling;
                 if(button.classList.contains('accordion__button--active')){
-                    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';    
+                    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+                    // accordionContent.style.height = accordionContent.scrollHeight + 0 + 'px';    
                 }
             });
         }
