@@ -37,10 +37,24 @@
 
 .accordion__content {
     overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.35s;
-
+    /* max-height: 0; */
+    height: 0;
+    /* transition: max-height 0.35s; */
+    transition: height 0.35s;
+    /* transition: padding 0.5s; */
     padding: 0 15px;
     font-family: "Century Gothic";
     background: #eeeeee;
+
+    /* display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column; */
+
+    /* text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); */
 }
