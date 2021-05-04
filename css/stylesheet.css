@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -60,7 +61,7 @@ body {
 
 .mobiletopnav a {
   color: rgb(0, 0, 0);
-  padding: 10px 16px;
+  padding: 12px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
@@ -151,11 +152,12 @@ footer h4 {
 /* CandleCare IS BELOW*/
 .candlecarewrapper {
   background-image: url(../images/candlecare.jpg);
-  height: 85%;
+  height: 80%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 20px;
 }
 
 .candlecare {
@@ -219,7 +221,7 @@ footer h4 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .orderinfo {
@@ -244,6 +246,150 @@ footer h4 {
 .orderinfo h4 {
   font-size: 1.1em;
   line-height: 4;
+}
+
+.orderinfo::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.orderinfo::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.orderinfo::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.orderinfo::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 1px solid rgba(217, 214, 195, 0.7); /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* PRODUCTS PAGE */
+.candleimage {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  text-align: end;
+  margin-top: 20px;
+  height: 45%;
+}
+
+.candleimage img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.candlename {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  margin-top: 20px;
+  height: 45%;
+  overflow: auto;
+}
+
+.candlename h1 {
+  font-size: 1.5em;
+}
+
+.candlename a,
+.candlename p {
+  margin-right: 20px;
+  line-height: 3em;
+  word-break: keep-all;
+  font-size: 1em;
+}
+
+.candlename a {
+  text-decoration: none;
+  color: #b17419;
+  font-size: 1em;
+}
+
+.skullcandleimg {
+  width: 40%;
+  float: left;
+  padding: 10px;
+  margin-top: 20px;
+  height: 45%;
+  text-align: end;
+  background-color: #d9d6c3;
+}
+
+.skullcandleimg img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.skullcandlename {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  margin-top: 20px;
+  height: 45%;
+  overflow: auto;
+  background-color: #d9d6c3;
+}
+
+.skullcandlename h1 {
+  font-size: 1.5em;
+}
+
+.skullcandlename a,
+.skullcandlename p {
+  margin-right: 20px;
+  line-height: 3em;
+  word-break: keep-all;
+  font-size: 1em;
+}
+
+.skullcandlename a {
+  text-decoration: none;
+  color: #b17419;
+  font-size: 1em;
+}
+
+.coasterimg {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  text-align: end;
+  margin-top: 20px;
+  height: 45%;
+}
+
+.coasterimg img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.coastername {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  margin-top: 20px;
+  height: 45%;
+  overflow: auto;
+}
+
+.coastername h1 {
+  font-size: 1.5em;
+}
+
+.coastername a,
+.coastername p {
+  margin-right: 20px;
+  line-height: 3em;
+  word-break: keep-all;
+  font-size: 1em;
+}
+
+.coastername a {
+  text-decoration: none;
+  color: #b17419;
+  font-size: 1em;
 }
 
 /* Extra small devices (phones, 600px and down) */
