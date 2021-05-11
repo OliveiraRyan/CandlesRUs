@@ -384,7 +384,15 @@ footer h4 {
   .orderinfo h4 {
     line-height: 2;
   }
-}
+
+  .perfectcandle, .skullcandle, .coaster {
+    width: 100%;
+  }
+
+
+  
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
