@@ -267,129 +267,104 @@ footer h4 {
 }
 
 /* PRODUCTS PAGE */
-.candleimage {
-  width: 50%;
+
+.perfectcandle {
+  position: relative;
+  width: 33%;
   float: left;
   padding: 10px;
-  text-align: end;
-  margin-top: 20px;
-  height: 45%;
+  margin-top: 18px;
+  height: auto;
+  text-align: center;
 }
 
-.candleimage img {
+.perfectcandle img {
   max-height: 100%;
   max-width: 100%;
+  margin-top: 20px;
+  transition: 0.5s ease;
 }
 
-.candlename {
-  width: 50%;
+.perfectcandle:hover .image {
+  opacity: 0.3;
+}
+
+.perfectcandle:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  background-color: rgba(217, 214, 195, 1);
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.skullcandle {
+  position: relative;
+  width: 33%;
   float: left;
   padding: 10px;
-  margin-top: 20px;
-  height: 45%;
-  overflow: auto;
+  margin-top: 18px;
+  height: auto;
+  text-align: center;
 }
 
-.candlename h1 {
-  font-size: 1.5em;
-}
-
-.candlename a,
-.candlename p {
-  margin-right: 20px;
-  line-height: 3em;
-  word-break: keep-all;
-  font-size: 1em;
-}
-
-.candlename a {
-  text-decoration: none;
-  color: #b17419;
-  font-size: 1em;
-}
-
-.skullcandleimg {
-  width: 40%;
-  float: left;
-  padding: 10px;
-  margin-top: 20px;
-  height: 45%;
-  text-align: end;
-  background-color: #d9d6c3;
-}
-
-.skullcandleimg img {
+.skullcandle img {
   max-height: 100%;
   max-width: 100%;
+  margin-top: 20px;
+  transition: 0.5s ease;
 }
 
-.skullcandlename {
-  width: 50%;
+.skullcandle:hover .image {
+  opacity: 0.3;
+}
+
+.skullcandle:hover .middle {
+  opacity: 1;
+}
+
+.coaster {
+  position: relative;
+  width: 33%;
   float: left;
   padding: 10px;
-  margin-top: 20px;
-  height: 45%;
-  overflow: auto;
-  background-color: #d9d6c3;
+  margin-top: 18px;
+  height: auto;
+  text-align: center;
 }
 
-.skullcandlename h1 {
-  font-size: 1.5em;
-}
-
-.skullcandlename a,
-.skullcandlename p {
-  margin-right: 20px;
-  line-height: 3em;
-  word-break: keep-all;
-  font-size: 1em;
-}
-
-.skullcandlename a {
-  text-decoration: none;
-  color: #b17419;
-  font-size: 1em;
-}
-
-.coasterimg {
-  width: 50%;
-  float: left;
-  padding: 10px;
-  text-align: end;
-  margin-top: 20px;
-  height: 45%;
-}
-
-.coasterimg img {
+.coaster img {
   max-height: 100%;
   max-width: 100%;
-}
-
-.coastername {
-  width: 50%;
-  float: left;
-  padding: 10px;
   margin-top: 20px;
-  height: 45%;
-  overflow: auto;
+  transition: 0.5s ease;
 }
 
-.coastername h1 {
-  font-size: 1.5em;
+.coaster:hover .image {
+  opacity: 0.3;
 }
 
-.coastername a,
-.coastername p {
-  margin-right: 20px;
-  line-height: 3em;
-  word-break: keep-all;
-  font-size: 1em;
+.coaster:hover .middle {
+  opacity: 1;
 }
 
-.coastername a {
-  text-decoration: none;
-  color: #b17419;
-  font-size: 1em;
+.perfectcandle,
+.coaster,
+.skullcandle h1 {
+  text-shadow: 3px 3px rgba(217, 214, 195, 0.7);
 }
 
 /* Extra small devices (phones, 600px and down) */
