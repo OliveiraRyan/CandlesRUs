@@ -402,25 +402,51 @@ footer h4 {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* IPAD */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
   .mobiletopnav {
     display: block;
   }
 
   .topnav {
     display: none;
+  }
+
+  .orderinfo h3 {
+    font-size: 60px;
+  }
+
+  .orderinfo h4 {
+    font-size: 30px;
+    line-height: 2.6;
+  }
+
+  .orderinfo h2 {
+    font-size: 40px;
+  }
+
+  .candlecare h1 {
+    font-size: 60px;
+  }
+
+  .candlecare h4 {
+    font-size: 30px;
+    line-height: 2.6;
+  }
+
+  .candlecarewrapper {
+    height: 85%;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .mobiletopnav {
-    display: block;
+    display: none;
   }
 
   .topnav {
-    display: none;
+    display: block;
   }
 }
 
