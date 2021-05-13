@@ -30,6 +30,11 @@ body {
   text-align: center;
 }
 
+.topnav img {
+  width: 110px;
+  display:inline;
+}
+
 .topnav li {
   display: inline-block;
   float: none;
