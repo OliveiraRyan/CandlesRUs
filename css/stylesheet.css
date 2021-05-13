@@ -165,9 +165,9 @@ footer h4 {
   text-align: center;
   margin-top: 25px;
   color: #000000;
-  height: 40%;
+  height: 50%;
   width: 100%;
-  top: 30%;
+  top: 25%;
   padding: 1px;
   background-color: rgba(217, 214, 195, 0.7);
   animation-name: candlecaretrans;
@@ -214,7 +214,7 @@ footer h4 {
 
 /* ORDER PAGE IS BELOW*/
 .orderwrap {
-  height: 85%;
+  height: 84%;
   width: 100%;
   background-image: url(../images/Orders.jpg);
   background-position: center;
@@ -228,9 +228,9 @@ footer h4 {
   text-align: center;
   margin-top: 25px;
   color: #000000;
-  height: 40%;
+  height: 45%;
   width: 100%;
-  top: 30%;
+  top: 25%;
   padding: 1px;
   background-color: rgba(217, 214, 195, 0.7);
   animation-name: candlecaretrans;
