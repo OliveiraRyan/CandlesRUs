@@ -51,7 +51,8 @@ img{
     text-transform: capitalize;
     font-weight: 700;
     position: relative;
-    color: #12263a;
+    /* color: #12263a; */
+    color: #111;
     margin: 1rem 0;
 }
 .product-title::after{
@@ -61,7 +62,8 @@ img{
     bottom: 0;
     height: 4px;
     width: 80px;
-    background: #12263a;
+    /* background: #12263a; */
+    background: #333;
 }
 .product-link{
     text-decoration: none;
@@ -102,12 +104,14 @@ img{
 }
 .product-detail h2{
     text-transform: capitalize;
-    color: #12263a;
+    /* color: #12263a; */
+    color: #111;
     padding-bottom: 0.2rem;
 }
 .product-detail h3{
     padding-top: 0.2rem;
-    color: #12263a;
+    /* color: #12263a; */
+    color: #111;
 }
 .product-detail p{
     font-size: 0.9rem;
@@ -121,9 +125,9 @@ img{
 .product-detail ul li{
     margin: 0;
     list-style: none;
-    background: url(../images/checked.png) left center no-repeat;
+    /* background: url(../images/checked.png) left center no-repeat;
     background-size: 18px;
-    padding-left: 1.7rem;
+    padding-left: 1.7rem; */
     margin: 0.4rem 0;
     font-weight: 600;
     opacity: 0.9;
@@ -160,13 +164,15 @@ img{
 .purchase-info .btn{
     cursor: pointer;
     color: #fff;
+    background: #333;
+    font-weight: bold;
 }
-.purchase-info .btn:first-of-type{
+/* .purchase-info .btn:first-of-type{
     background: #256eff;
 }
 .purchase-info .btn:last-of-type{
     background: #f64749;
-}
+} */
 .purchase-info .btn:hover{
     opacity: 0.9;
 }

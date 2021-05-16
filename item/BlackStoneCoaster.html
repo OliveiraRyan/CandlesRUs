@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Product Card/Page</title>
+    <title>Black Stone Coaster</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/productDetail.css">
     <link rel="stylesheet" href="../css/stylesheet.css">
@@ -18,21 +18,28 @@
             margin-right: 0;
         }
     </style>
+
+    <!-- TODO: Put this in .css file when the final favicon is selected -->
+    <style>
+        .fa-check-circle{
+            color: #333;
+        }
+    </style>
 </head>
   <body>
     
     <div id="container" style="background-color: white">
         <div id="main">
             <div class="topnav">
-                <li><a href="products.html">products</a></li>
-                <li><a href="orders.html">order</a></li>
+                <li><a href="../products.html">products</a></li>
+                <li><a href="../orders.html">order</a></li>
                 <li>
-                  <a href="index.html"
+                  <a href="../index.html"
                     ><img src="../images/logo.png" alt="Logo"
                   /></a>
                 </li>
-                <li><a href="candlecare.html">candle care</a></li>
-                <li><a href="faq.html">faq</a></li>
+                <li><a href="../candlecare.html">candle care</a></li>
+                <li><a href="../faq.html">faq</a></li>
               </div>
 
             <div class = "card-wrapper">
@@ -69,7 +76,7 @@
                 </div>
                 <!-- card right -->
                 <div class = "product-content">
-                <h2 class = "product-title">product name here</h2>
+                <h2 class = "product-title">black stone coaster</h2>
                 <!-- <a href = "#" class = "product-link">visit nike store</a> -->
                 <!-- <div class = "product-rating">
                     <i class = "fas fa-star"></i>
@@ -83,7 +90,7 @@
                 <div class = "product-price">
                     <!-- <p class = "last-price">Old Price: <span>$257.00</span></p>
                     <p class = "new-price">New Price: <span>$249.00 (5%)</span></p> -->
-                    <p class = "product-price">Price: <span>$249.00</span></p>
+                    <p class = "product-price">Price: <span>$4.00</span></p>
                 </div>
 
                 <div class = "product-detail">
@@ -91,7 +98,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde.</p>
                     
-                    <h3>Scents: (if it applies)</h3>
+                    <!-- <h3>Scents: (if it applies)</h3>
                     <ol>
                         <li>"it’s french" &ndash; <span>sweet french vanilla</span></li>
                         <li>"blue slushy" &ndash; <span>cool blue raspberry</span></li>
@@ -100,24 +107,24 @@
                         <li>"tanning time" &ndash; <span>coconut cream</span></li>
                         <li>"the woods" &ndash; <span>cool musky pine</span></li>
                         <li>"amber" &ndash; <span>the scent not the person</span> </li>
-                    </ol>
+                    </ol> -->
 
                     <ul>
-                    <li>Colours: <span>Colours</span></li>
+                    <li><i class = "fas fa-check-circle"></i> Colours: <span>Colours</span></li>
                     <!-- <li>Available: <span>in stock</span></li> -->
-                    <li>Category: <span>Category</span></li>
-                    <li>Shipping Area: <span>Local to the GTA</span></li>
-                    <li>Shipping Fee: <span>Free</span></li>
+                    <li><i class = "fas fa-check-circle"></i> Category: <span>Category</span></li>
+                    <li><i class = "fas fa-check-circle"></i> Shipping Area: <span>Local to the GTA</span></li>
+                    <li><i class = "fas fa-check-circle"></i> Shipping Fee: <span>Free</span></li>
                     </ul>
                 </div>
 
-                <!-- <div class = "purchase-info">
-                    <input type = "number" min = "0" value = "1">
-                    <button type = "button" class = "btn">
-                    Add to Cart <i class = "fas fa-shopping-cart"></i>
+                <div class = "purchase-info">
+                    <!-- <input type = "number" min = "0" value = "1"> -->
+                    <button type = "button" class = "btn" onclick="location.href = '../orders.html';">
+                    How to Order <i class = "fas fa-shopping-cart"></i>
                     </button>
-                    <button type = "button" class = "btn">Compare</button>
-                </div> -->
+                    <!-- <button type = "button" class = "btn">Compare</button> -->
+                </div>
 
                 <!-- <div class = "social-links">
                     <p>Share At: </p>
