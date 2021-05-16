@@ -166,13 +166,13 @@ footer h4 {
 }
 
 .candlecare {
-  position: fixed;
+  position: relative;
   text-align: center;
   margin-top: 25px;
   color: #000000;
-  height: 40%;
+  height: 50%;
   width: 100%;
-  top: 30%;
+  top: 25%;
   padding: 1px;
   background-color: rgba(217, 214, 195, 0.7);
   animation-name: candlecaretrans;
@@ -219,8 +219,7 @@ footer h4 {
 
 /* ORDER PAGE IS BELOW*/
 .orderwrap {
-  position: fixed;
-  height: 85%;
+  height: 84%;
   width: 100%;
   background-image: url(../images/Orders.jpg);
   background-position: center;
@@ -230,13 +229,13 @@ footer h4 {
 }
 
 .orderinfo {
-  position: fixed;
+  position: relative;
   text-align: center;
   margin-top: 25px;
   color: #000000;
-  height: 40%;
+  height: 45%;
   width: 100%;
-  top: 30%;
+  top: 25%;
   padding: 1px;
   background-color: rgba(217, 214, 195, 0.7);
   animation-name: candlecaretrans;
@@ -275,7 +274,7 @@ footer h4 {
 
 .perfectcandle {
   position: relative;
-  width: 33%;
+  width: 33.33%;
   float: left;
   padding: 10px;
   margin-top: 18px;
@@ -318,7 +317,7 @@ footer h4 {
 
 .skullcandle {
   position: relative;
-  width: 33%;
+  width: 33.33%;
   float: left;
   padding: 10px;
   margin-top: 18px;
@@ -343,7 +342,7 @@ footer h4 {
 
 .coaster {
   position: relative;
-  width: 33%;
+  width: 33.33%;
   float: left;
   padding: 10px;
   margin-top: 18px;
@@ -407,25 +406,51 @@ footer h4 {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* IPAD */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
   .mobiletopnav {
     display: block;
   }
 
   .topnav {
     display: none;
+  }
+
+  .orderinfo h3 {
+    font-size: 60px;
+  }
+
+  .orderinfo h4 {
+    font-size: 30px;
+    line-height: 2.6;
+  }
+
+  .orderinfo h2 {
+    font-size: 40px;
+  }
+
+  .candlecare h1 {
+    font-size: 60px;
+  }
+
+  .candlecare h4 {
+    font-size: 30px;
+    line-height: 2.6;
+  }
+
+  .candlecarewrapper {
+    height: 85%;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .mobiletopnav {
-    display: block;
+    display: none;
   }
 
   .topnav {
-    display: none;
+    display: block;
   }
 }
 
