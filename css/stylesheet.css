@@ -8,7 +8,8 @@ html,
 body {
   display: block;
   scroll-behavior: smooth;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", sans-serif, Arial, Helvetica;
+
   height: 100%;
   width: 100%;
   /* margin: 0; */
@@ -32,7 +33,7 @@ body {
 
 .topnav img {
   width: 110px;
-  display:inline;
+  display: inline;
 }
 
 .topnav li {
