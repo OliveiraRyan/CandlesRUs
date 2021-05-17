@@ -14,6 +14,22 @@
   </head>
 
   <body>
+
+  <div class="mobiletopnav">
+      <a href="index.html" class="mobilelogo">
+        <img src="images/logo.png" alt="Logo" width="35" height="35" />
+      </a>
+      <div id="links">
+        <a href="products.html">products</a>
+        <a href="orders.html">orders</a>
+        <a href="candlecare.html">candle care</a>
+        <a href="faq.html">faq</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="dropDown()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </div>
+
     <div id="container" style="background-color: white">
       <div id="main">
         <div class="topnav">
@@ -73,5 +89,16 @@
       ></a>
       <h4>@burnout.candles</h4>
     </footer>
+
+    <script>
+      function dropDown() {
+        var x = document.getElementById("links");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
