@@ -15,6 +15,21 @@
     </head>
 
     <body onresize="resizeAccordions()">
+    
+    <div class="mobiletopnav">
+      <a href="index.html" class="mobilelogo">
+        <img src="images/logo.png" alt="Logo" width="35" height="35" />
+      </a>
+      <div id="links">
+        <a href="products.html">products</a>
+        <a href="orders.html">orders</a>
+        <a href="candlecare.html">candle care</a>
+        <a href="faq.html">faq</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="dropDown()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </div>
         <div id="container">
             <div id="main">
                 <div class="topnav">
@@ -59,7 +74,7 @@
                             At this time you can only place an order through our instagram DMs. We're currently looking
                             to implement better ways for you to shop and order our products.</br></br>
                             
-                            Check out our <b>order</b> page for more info on placing your order!
+                            Check out our <a href="orders.html" style="text-decoration: none; color: #b17419;">order</a> page for more info on placing your order!
                         </p>
                     </div>
 
@@ -88,7 +103,7 @@
                     <div class="accordion__content">
                         <p>
                             Burnout offers many promotions and participates in many giveaways throughout the year. Follow 
-                            us on instagram <a href="https://www.instagram.com/burnout.candles/" target="_blank">@burnout.candles</a> to stay updated on our latest announcements.
+                            us on instagram <a href="https://www.instagram.com/burnout.candles/" target="_blank" style="text-decoration: none; color: #b17419;">@burnout.candles</a> to stay updated on our latest announcements.
                         </p>
                     </div>
 
@@ -104,7 +119,7 @@
                     <button type="button" class="accordion__button">I have a question that isn't answered here who can I contact?</button>
                     <div class="accordion__content">
                         <p>
-                            Feel free to contact us by email at <a href="mailto:burnoutcandlesinfo@gmail.com">burnoutcandlesinfo@gmail.com</a></br></br> 
+                            Feel free to contact us by email at <a href="mailto:burnoutcandlesinfo@gmail.com" style="text-decoration: none; color: #b17419;">burnoutcandlesinfo@gmail.com</a></br></br> 
                             
                             We answer emails between Monday-Friday.
                         </p>
@@ -124,6 +139,19 @@
         
         
       </body>
+
+      <script>
+      function dropDown() {
+        var x = document.getElementById("links");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+
+      
 
       
 
