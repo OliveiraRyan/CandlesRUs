@@ -40,7 +40,22 @@
                 </li>
                 <li><a href="../candlecare.html">candle care</a></li>
                 <li><a href="../faq.html">faq</a></li>
-              </div>
+            </div>
+
+            <div class="mobiletopnav">
+                <a href="../index.html" class="mobilelogo">
+                    <img src="../images/logo.png" alt="Logo" style="width:35px;height:35px;" />
+                </a>
+                <div id="links">
+                    <a href="products.html">products</a>
+                    <a href="orders.html">orders</a>
+                    <a href="candlecare.html">candle care</a>
+                    <a href="faq.html">faq</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="dropDown()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
 
             <div class = "card-wrapper">
             <div class = "card">
@@ -163,5 +178,16 @@
 
     
     <script src="../js/productDetailsScript.js"></script>
+
+    <script>
+        function dropDown() {
+          var x = document.getElementById("links");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
   </body>
 </html>
