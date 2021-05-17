@@ -92,7 +92,7 @@ body {
   width: 99%;
   /* margin-left: auto; */
   /* margin-right: auto; */
-  background-image: url(../images/wrapper.png);
+  background-image: url(../images/wrapper.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -222,7 +222,7 @@ footer h4 {
 
 /* ORDER PAGE IS BELOW*/
 .orderwrap {
-  height: 84%;
+  height: 80%;
   width: 100%;
   background-image: url(../images/Orders.jpg);
   background-position: center;
