@@ -43,8 +43,8 @@
             </div>
 
             <div class="mobiletopnav">
-                <a href="index.html" class="mobilelogo">
-                    <img src="images/logo.png" alt="Logo" width="35" height="35" />
+                <a href="../index.html" class="mobilelogo">
+                    <img src="../images/logo.png" alt="Logo" style="width:30px;height:30px;" />
                 </a>
                 <div id="links">
                     <a href="products.html">products</a>
@@ -174,5 +174,16 @@
 
     
     <script src="../js/productDetailsScript.js"></script>
+
+    <script>
+        function dropDown() {
+          var x = document.getElementById("links");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
   </body>
 </html>
