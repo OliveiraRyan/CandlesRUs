@@ -205,12 +205,16 @@ img{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1.5rem;
+        align-items: center;
+       
     }
     .card-wrapper{
-        height: 100vh;
+        /* height: 100vh; */
+        height: 720px;
         display: flex;
         justify-content: center;
-        align-items: center;
+        margin-bottom: 15px;
+        
     }
     .product-imgs{
         display: flex;
